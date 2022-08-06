@@ -1,6 +1,6 @@
-# Securing aws /root/.aws/credentials (encrypt/decrypt sample below)
-
 ```
+[Securing aws /root/.aws/credentials (encrypt/decrypt sample below)]
+
 nullx@DESKTOP-4IHI081:/mnt/c/aws-vault$ cat credentials
 [default]
 aws_access_key_id = <access_key>
