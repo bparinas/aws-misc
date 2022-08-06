@@ -1,4 +1,4 @@
-## securing aws /root/.aws/credentials (encrypt/decrypt sample below)
+# Securing aws /root/.aws/credentials (encrypt/decrypt sample below)
 
 ```
 nullx@DESKTOP-4IHI081:/mnt/c/aws-vault$ cat credentials
