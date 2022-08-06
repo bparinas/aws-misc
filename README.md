@@ -1,6 +1,8 @@
 # aws-misc
 
-# securing aws /root/.aws/credentials (encrypt/decrypt sample below)
+## securing aws /root/.aws/credentials (encrypt/decrypt sample below)
+
+```
 nullx@DESKTOP-4IHI081:/mnt/c/aws-vault$ cat credentials
 [default]
 aws_access_key_id = <access_key>
@@ -19,3 +21,4 @@ nullx@DESKTOP-4IHI081:/mnt/c/aws-vault$ gpg --no-tty --batch --quiet --no-mdc-wa
 [default]
 aws_access_key_id = <access_key>
 aws_secret_access_key = <secret_key>
+```
